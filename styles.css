@@ -1,0 +1,98 @@
+/* styles.css */
+
+.center-text {
+    text-align: center;
+  }
+  
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    
+    background-color: #110041;
+    padding: 1em 0;
+  }
+  
+  .top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .top-nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: wavy;
+    font-weight: bold;
+    padding: 0.5em 1em;
+  }
+  
+  .top-nav a:hover {
+    background-color: #2b2358;
+    border-radius: 100px;
+  }
+
+  .form-section {
+
+    margin-top: 10rem;
+    padding: 5rem;
+    background-color: #110041;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    
+  }
+  
+  .form-section input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.3rem 0 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-section button {
+    background-color: #2b2358;
+    color: white;
+    border: none;
+    padding: 0.8rem 14.4rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .form-section button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    border-top: 2px solid #444; 
+    padding: 1rem;
+    background-color: #110041;
+    color: white;
+    margin-top: 10rem;
+  }
+  .gapList {
+    margin-bottom: 0.8rem;
+    padding: 0.5rem;
+  }
+  .character-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Espaço entre as imagens */
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .character-gallery img {
+    width: 150px;
+    border-radius: 8px;
+   
+  }
+  
+
+  
