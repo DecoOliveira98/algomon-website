@@ -1,49 +1,64 @@
 /* styles.css */
 
 .center-text {
-    text-align: center;
+  text-align: center; 
+  /*this I decide to use to centerlize the txt in the web page*/
   }
   
 
 body {
+/*this formart I choose because is the main format, looking for the best UI/UX */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
-  
-  header {
+
+  .dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+
+}
+
+.dark-mode nav{
+  background-color: #1a1a1a;
+}
+.dark-mode a{
+  color: #90cdf4;
+}
+  header {/*header with color and format choosen by me, focus also in the UX, dark blue means trust, 
+    pading also choose sightly from me, I was texting one by one until find the perfect size for me*/
     
     background-color: #110041;
     padding: 1em 0;
   }
   
-  .top-nav {
+  .top-nav {/*container 0 is fit with flex display, align to center, and gap 2rem between */
     display: flex;
     justify-content: center;
     gap: 2rem;
   }
   
-  .top-nav a {
+  .top-nav a {/*txt format*/
+    
     color: rgb(255, 255, 255);
     text-decoration: wavy;
     font-weight: bold;
     padding: 0.5em 1em;
   }
   
-  .top-nav a:hover {
+  .top-nav a:hover {/*decide to create like this because I dont want to create a huge contrast 
+    the radius I decide to leave like this because I dont want to work with square boxes*/
+    content: center;
     background-color: #2b2358;
-    border-radius: 100px;
+    border-radius: 50px;
   }
 
+/**/
   .form-section {
-
-    margin-top: 10rem;
+  
     padding: 5rem;
     background-color: #110041;
     border-radius: 10px;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
     color: white;
     
   }
@@ -51,17 +66,13 @@ body {
   .form-section input {
     width: 100%;
     padding: 0.5rem;
-    margin: 0.3rem 0 1rem 0;
-    border: 1px solid #ccc;
+    margin: 1rem 0 1rem 0;
     border-radius: 4px;
   }
   
   .form-section button {
     background-color: #2b2358;
     color: white;
-    border: none;
-    padding: 0.8rem 14.4rem;
-    cursor: pointer;
     border-radius: 4px;
   }
   

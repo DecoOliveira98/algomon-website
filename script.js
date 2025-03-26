@@ -29,5 +29,21 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
 
+    const gameTitle = document.getElementById('gameTitle');
+
+    gameTitle.addEventListener('mouseover', () => {
+      gameTitle.style.color = 'darkblue';
+      gameTitle.style.backgroundSize = '2rem';
+    });
+    gameTitle.addEventListener('mouseout', () => {
+      gameTitle.style.color= '';
+    });
+
+    const darkModeClick = document.getElementById('darkMode');
+
+    darkModeClick.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+
   });
   
