@@ -39,11 +39,5 @@ document.addEventListener("DOMContentLoaded", function () {
       gameTitle.style.color= '';
     });
 
-    const darkModeClick = document.getElementById('darkMode');
-
-    darkModeClick.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-    });
-
   });
   
