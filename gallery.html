@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gallery</title>
   <link rel="stylesheet" href="styles.css" />
-  <script src="script.js"></script>
+ 
 </head>
 <body>
   <header>
-    <nav class="top-nav">
+    <nav class="top-nav"><!--REF 4-->
       
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
@@ -20,7 +20,7 @@
   </header>
 
     <main>
-        <div class="center-text">
+        <div class="center-text"><!--REF 1-->
             <h1>Gallery</h1>
             <h2>
                 <p>All of the game content is a secret! </p>
@@ -28,11 +28,13 @@
             <p>But you can see the main characters!</p>
         </div>
         
-        <div class="center-text">
-            <div class="character-gallery">
+        <div class="center-text"><!--REF 1-->
+            <div class="character-gallery"> <!--REF 8-->
+              <!--NOTE ALL IMAGES WERE MADE WITH DALL-E GEN AI -->
                 <img src="mainbunny.png" alt="Main Bunny Warrior" >
 
-                <img src="firebunny.png" alt="Fire Bunny" >
+                <!--aditional event-->
+                <img id="fireBunny" src="firebunny.png" alt="Fire Bunny" >
 
                 <img src="icebunny.png" alt="Ice Bunny">
 
@@ -42,13 +44,13 @@
     </main>
 
   <footer>
-    <div class="center-text">
+    <div class="center-text"><!--REF 1-->
         <p>Algomon Team - The future of the game!</p>
         <a href="index.html"> 
             <img src="footer.png" alt="Footer" width="40">
         </a>
     </div>
   </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
